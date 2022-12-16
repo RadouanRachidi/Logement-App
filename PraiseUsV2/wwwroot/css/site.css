@@ -1,0 +1,540 @@
+html {
+    font-size: 14px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0; 
+    width: 100%;
+    height: 40px;
+    background-color: aliceblue;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.logo {
+    height: 90px;
+    width: 90px;
+}
+
+.home-img1 {
+    height: 400px;
+    width: 500px;
+    float: right;
+    display: float;
+    margin: 30px;
+    box-shadow: 8px 11px rgb(0 0 0 / 10%);
+}
+
+.block1 {
+    display: flex;
+    /*align-items: center;*/
+    margin: 25px 30px 25px 30px;
+    /*    border-width: 9px;
+    border-style: double;
+    border-color: black;*/
+}
+
+.block1-txt {
+    vertical-align: middle;
+    margin-left: 25px;
+}
+
+.txt-strong {
+    font-size: 45px;
+    position: relative;
+    top: 10px;
+}
+
+.p-block1 {
+    position: relative;
+    top: 40px;
+    font-size: 20px;
+}
+
+.block1-PU {
+    font-size: 80px;
+    color: #f34242;
+}
+
+.block2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 70vw;
+    margin: 50px auto;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.block2-agence {
+    margin: 20px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 10px;
+    box-shadow: 1px 0 18px rgb(0 0 0 / 10%);
+}
+
+.block2-title1 {
+    font-size: 55px;
+    text-align: center;
+    margin: 30px;
+}
+
+.block2-txt-agence {
+    margin: 0px 30px 0px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.btn-new-agence {
+    max-width: 100%;
+    margin: 15px 30px 30px 100px
+}
+
+.block2-particulier {
+    margin: 20px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 10px;
+    box-shadow: 1px 0 18px rgb(0 0 0 / 10%);
+}
+
+.block2-title2 {
+    font-size: 55px;
+    text-align: center;
+    margin: 30px;
+}
+
+.block2-txt-particulier {
+    margin: 0px 30px 0px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.btn-new-particulier {
+    max-width: 100%;
+    margin: 15px 30px 10px 35px;
+    text-align: center;
+}
+
+.block2-1 {
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 75%;
+    /*padding: 20px;*/
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: justify;
+    background-color: #fff;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.btn-particulier {
+    background-color: #ff4949;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.btn-agences {
+    background-color: #ff4949;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.block3 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 70vw;
+    margin: 50px auto;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.block3-1 {
+    margin: 20px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 10px;
+    box-shadow: 1px 0 18px rgb(0 0 0 / 10%);
+}
+
+.block3-title {
+    font-size: 55px;
+    text-align: center;
+    margin: 30px;
+}
+
+.block3-txt {
+    margin: 0px 90px 15px 90px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.btn-new-locataire {
+    max-width: 100%;
+    margin: 15px 30px 30px 35px;
+    text-align: center;
+}
+
+.btn-locataire {
+    background-color: #ff4949;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.txt-footer {
+    text-align: center;
+}
+
+.entourage {
+    font-size: 65px;
+    color: #f34242;
+    font-weight: bold;
+    text-align: center;
+    margin: 70px 0px 0px 0px;
+}
+
+.p-txt-blac1-2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.signature-img {
+    height: 400px;
+    width: 700px;
+    float: right;
+    display: float;
+    margin: 30px;
+}
+
+.block4-title1 {
+    font-size: 65px;
+    color: #f34242;
+    font-weight: bold;
+    text-align: center;
+    margin: 70px 0px 0px 0px;
+}
+
+.block4 {
+    display: flex;
+    /*align-items: center;*/
+    margin: 25px 30px 25px 0px;
+    border-width: 9px;
+    border-color: black;
+    justify-content: center;
+}
+
+.block4-txt {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.block4-p {
+    position: relative;
+    top: 40px;
+    font-size: 17px;
+}
+
+/*************************** Login Page ********************************/
+
+
+/*.P-login-title {
+    text-align : center;
+}
+
+.body-login {
+    padding: 20px 30px 30px;
+    margin-bottom: 25px;
+    width: 100%;
+    box-sizing: border-box;
+    background: #ff4949;
+    border-radius : 8px;
+    box-shadow : 0 0 6px rgb( 57 57 57 /16%);
+    color : white;
+}
+
+.login-form {
+    display : flex;
+    flex-direction : column;
+    max-width : 370px;
+    width : 100px;
+    box-sizing : border-box;
+    padding : 0 16px;
+    margin : auto 40px;
+}*/
+
+
+.body-login {
+    background-color: #ff4949;
+    height: 100vh;
+    border-radius: 30px;
+}
+
+.background {
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+
+    .background .shape {
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        border-radius: 50%;
+    }
+
+.shape:first-child {
+    background: linear-gradient( #f9f9f9, #ffffff );
+    left: -48px;
+    top: -31px;
+}
+
+.shape:last-child {
+    background: linear-gradient( to right, #dedcdc, #ffffff );
+    right: -44px;
+    bottom: -53px;
+}
+
+.btn-login {
+    margin-top: 32px;
+}
+
+.form-global {
+    height: 520px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+
+    .form-global * {
+        font-family: 'Poppins',sans-serif;
+        color: black;
+        letter-spacing: 0.5px;
+        outline: none;
+        border: none;
+    }
+
+    .form-global h3 {
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 42px;
+        text-align: center;
+    }
+
+label {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255 255 255);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+::placeholder {
+    color: #e5e5e5;
+}
+
+button {
+    /*margin-top: 50px;*/
+    width: 100%;
+    background-color: #fcfcfc;
+    color: #010101;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-right: 10px;
+}
+
+.form-check-input {
+    margin-right: 10px;
+}
+
+.btn-warn {
+    color: white;
+    background-color: #f34242;
+    border-radius: 15px;
+    border: 0px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+/*.nav-global {
+}*/
+
+.nav-btn {
+    text-decoration: none;
+    color: black;
+    margin: 17px 10px 0px 10px;
+    cursor: #f34242;
+}
+
+.nav-lien {
+    margin-top: 20px;
+}
+
+.avis-block1 {
+    text-align: center;
+}
+
+/*************************** Page avis *************************************/
+
+/*************************** Carte avis *************************************/
+
+.flip-card {
+    margin-top: 30px;
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+    width: 300px;
+    height: 300px;
+}
+
+/*************************** Btn avis head *************************************/
+
+/*.btn-avis-head {
+    column-count: 2;
+    align-content : center;
+    align-items : center;
+}*/
+
+.btn-avis-block {
+    background-color: #f34242;
+    border-radius: 15px;
+    border: 0px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    width: 90%;
+    display: flex;
+    max-width: 70vw;
+    margin: 50px auto;
+    justify-content: space-around;
+    font-size: 17px;
+}
+
+.btn-avis-head {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 2em;
+}
+
+    .btn-avis-head :first-child {
+        align-self: center;
+    }

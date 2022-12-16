@@ -1,0 +1,13 @@
+﻿.mpd-setting {
+    display: flex;
+    justify-content: center;
+}
+
+.input-mpd {
+    margin-bottom: 20px;
+}
+
+.btn-update-password {
+    background-color: #f34242;
+    color: white;
+}

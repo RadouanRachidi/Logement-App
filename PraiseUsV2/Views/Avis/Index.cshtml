@@ -1,0 +1,99 @@
+﻿@*
+    
+*@
+@{ 
+    ViewBag.Title = "Avis";
+
+    <link rel="stylesheet" href="~/css/avis.css" asp-append-version="true" />
+}
+
+<div class="btn-header">
+    <div class="btn-my-avis">
+        @Html.ActionLink("Mes Avis", "My_Avis", "Avis", new { area = "" }, new { @class="txt-new-avis" })
+    </div>
+
+    <div class="btn-new-avis">
+        @Html.ActionLink("Ajouter un avis", "Index", "CreateAvis", new { area = "" }, new { @class="txt-new-avis" })
+    </div>
+</div>
+
+<hr />
+
+<h1 class="title-avis">Tous les avis</h1>
+
+
+<div class="body1-avis-page">
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img class="card" src="~/photo/avis/avatar_homme.png" alt="Avatar">
+        </div>
+        <div class="flip-card-back">
+          <h3 class="card-name">Morgan Freeman</h3>
+          <p>Métier : Acteur</p>
+          <p>Status : Sérieux</p>
+          <p>Domicile : Bordeaux</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img class="card" src="~/photo/avis/avatar_femme.png" alt="Avatar" >
+        </div>
+        <div class="flip-card-back">
+          <h3 class="card-name">Clara Dubois</h3>
+          <p>Métier : Enseignate</p>
+          <p>Status : Sérieuse</p>
+          <p>Domicile : Marseille</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card ">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img class="card" src="~/photo/avis/avatar_homme.png" alt="Avatar">
+        </div>
+        <div class="flip-card-back">
+          <h3 class="card-name" >Jéremie Duval</h3>
+          <p>Métier : Boucher</p>
+          <p>Status : Moyennement sérieux</p>
+          <p>Domicile : Poitiers</p>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+<div class="body1-avis-page">
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img class="card" src="~/photo/avis/avatar_femme.png" alt="Avatar">
+            </div>
+            <div class="flip-card-back">
+                <h3 class="card-name">Sophie Mireau</h3>
+                <p>Métier : PDG</p>
+                <p>Status : Sérieux</p>
+                <p>Domicile : Lille</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img class="card" src="~/photo/avis/avatar_femme.png" alt="Avatar">
+            </div>
+            <div class="flip-card-back">
+                <h3 class="card-name">Dimitrie Saje</h3>
+                <p>Métier : Inconnu</p>
+                <p>Status : Négligent</p>
+                <p>Domicile : Bordeaux</p>
+            </div>
+        </div>
+    </div>
+</div>

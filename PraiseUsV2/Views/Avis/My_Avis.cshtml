@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Avis";
+
+    <link rel="stylesheet" href="~/css/my_avis.css" asp-append-version="true" />
+}
+
+<h1 class ="title-avis">Mes Avis</h1>
+
+<p class="p-avis">Voici l'ensemble de vos avis</p>
+
+@Html.ActionLink("Mes Avis", "Index", "IndexAvis", new { area = "" }, new { @class="txt-new-avis" })
+@Html.ActionLink("Mes Avis", "Create", "CreateAvis", new { area = "" }, new { @class="txt-new-avis" })
+@Html.ActionLink("Mes Avis", "Details", "DetailsAvis", new { area = "" }, new { @class="txt-new-avis" })
+@Html.ActionLink("Mes Avis", "Edit", "EditAvis", new { area = "" }, new { @class="txt-new-avis" })
+@Html.ActionLink("Mes Avis", "Delete", "DeleteAvis", new { area = "" }, new { @class="txt-new-avis" })

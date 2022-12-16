@@ -1,0 +1,9 @@
+﻿.personnal-data-btn {
+    background-color: #f34242;
+    color: white;
+}
+
+.data-personel{
+    display: flex;
+    justify-content: center;
+}

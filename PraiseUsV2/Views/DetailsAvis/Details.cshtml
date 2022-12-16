@@ -1,0 +1,49 @@
+﻿@page
+@model PraiseUsV2.Models.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Details de l'avis</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avis.Nom)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avis.Nom)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avis.Prenom)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avis.Prenom)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avis.Note)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avis.Note)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avis.Commentaire)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avis.Commentaire)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Avis.Date_avis)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Avis.Date_avis)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Avis?.Id_Locataire">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

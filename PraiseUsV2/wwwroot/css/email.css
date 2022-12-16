@@ -1,0 +1,14 @@
+﻿.email-setting {
+    display: flex;
+    justify-content: center;
+}
+
+.input-email {
+    margin-bottom: 20px;
+}
+
+
+.btn-change-email {
+    background-color: #f34242;
+    color: white;
+}

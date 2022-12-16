@@ -1,0 +1,44 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<ul class="navbar-nav nav-global">
+    @if (SignInManager.IsSignedIn(User))
+    {
+        @*<li class="nav-item">*@
+
+        <li class="nav-lien">
+            @*<a class="nav-btn " asp-area="" asp-page="/Index" >Accueil</a>*@
+            @Html.ActionLink("Accueil", "Index", "Home", new { area = "" }, new { @class = "nav-btn"})
+        </li>
+        <li class="nav-lien">
+            @*<a class="nav-btn " asp-area="" asp-page="/Avis">Avis</a>*@
+            @Html.ActionLink("Avis", "Index", "Avis", new { area = "" }, new { @class = "nav-btn"})
+        </li>
+        <li class="nav-lien">
+            <a class="nav-btn " asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
+        </li>
+        <li class="">
+            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
+                <button type="submit" class="btn-warn">Déconnexion</button>
+            </form>
+        </li>
+    }
+    else
+    {
+        <li class="nav-item">
+            <a class="nav-btn" asp-area="" asp-page="/Index"> Accueil</a>
+        </li>
+        @*<li class="nav-item ">
+            <a class="nav-btn" asp-area="Locataire" asp-page="/Avis">Avis</a>
+        </li>*@
+        <li class="nav-item ">
+            <a class="nav-btn" asp-area="Identity" asp-page="/Account/Register">S'inscrire</a>
+        </li>
+        <li class="nav-item ">
+
+            <a class="btn-warn " asp-area="Identity" asp-page="/Account/Login">Se Connecter</a>
+
+        </li>
+    }
+</ul>

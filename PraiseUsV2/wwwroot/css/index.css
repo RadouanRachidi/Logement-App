@@ -1,0 +1,22 @@
+﻿body {
+    align-items : center;
+}
+
+
+.btn-save-update-profil {
+    background-color: #f34242;
+    color: white;
+}
+
+.block-input-profil-page {
+    align-items : center;
+
+}
+.profil-setting {
+    display: flex;
+    justify-content: center;
+}
+
+.input-profil{
+    margin-bottom: 20px;
+}

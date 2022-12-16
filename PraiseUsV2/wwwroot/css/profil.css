@@ -1,0 +1,51 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.logo {
+    height: 90px;
+    width: 90px;
+}
+
+
+/* layout*/
+
+.title_layout {
+    display: flex;
+    justify-content: center;
+    color : black ;
+}
+
+/*.div_title_layout {
+    background-color: #f34242;
+    justify-content: center;
+    height: 50px;
+}*/
+
+.title-profil-page {
+    padding-top : 50px;
+}
+
+/*.layout-index-page {
+    padding-top : 50px;
+}*/
+
+.layout-body-account {
+    text-align : center;
+    align-items : center;
+}
