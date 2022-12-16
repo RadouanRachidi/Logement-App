@@ -14,7 +14,7 @@
 	} else {
 		factory( jQuery );
 	}
-}(function( $ ) {
+}(function( $ ) { 
 
 $.extend( $.fn, {
 

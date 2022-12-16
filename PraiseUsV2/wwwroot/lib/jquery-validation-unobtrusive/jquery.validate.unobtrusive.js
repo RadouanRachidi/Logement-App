@@ -17,7 +17,7 @@
         // Browser global
         jQuery.validator.unobtrusive = factory(jQuery);
     }
-}(function ($) {
+}(function ($) { 
     var $jQval = $.validator,
         adapters,
         data_validation = "unobtrusiveValidation";
