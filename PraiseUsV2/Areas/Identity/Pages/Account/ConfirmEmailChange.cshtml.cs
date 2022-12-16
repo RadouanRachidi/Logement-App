@@ -20,7 +20,7 @@ namespace PraiseUsV2.Areas.Identity.Pages.Account
 
         public ConfirmEmailChangeModel(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager)
         {
-            _userManager = userManager;
+            _userManager = userManager; 
             _signInManager = signInManager;
         }
 

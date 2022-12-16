@@ -23,13 +23,13 @@
                 <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" />
                 <label asp-for="Input.Password" class="form-label"></label>
                 <span asp-validation-for="Input.Password" class="text-danger"></span>
-            </div>
+            </div> 
         }
         <button class="personnal-data-btn" type="submit">Supprimer mes données</button>
     </form>
     </div>
 </div>
 
-@section Scripts {
+@section Scripts { 
     <partial name="_ValidationScriptsPartial" />
 }

@@ -23,7 +23,7 @@ namespace PraiseUsV2.Areas.Identity.Pages.Account
 
         public ForgotPasswordModel(UserManager<IdentityUser> userManager, IEmailSender emailSender)
         {
-            _userManager = userManager;
+            _userManager = userManager; 
             _emailSender = emailSender;
         }
 

@@ -23,3 +23,4 @@ namespace PraiseUsV2.Areas.Identity.Pages.Account
         }
     }
 }
+ 

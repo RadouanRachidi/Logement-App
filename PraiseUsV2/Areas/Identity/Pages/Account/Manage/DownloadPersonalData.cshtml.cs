@@ -22,7 +22,7 @@ namespace PraiseUsV2.Areas.Identity.Pages.Account.Manage
 
         public DownloadPersonalDataModel(
             UserManager<IdentityUser> userManager,
-            ILogger<DownloadPersonalDataModel> logger)
+            ILogger<DownloadPersonalDataModel> logger) 
         {
             _userManager = userManager;
             _logger = logger;

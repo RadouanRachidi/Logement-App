@@ -21,9 +21,9 @@ namespace PraiseUsV2.Areas.Identity.Pages.Account.Manage
         public ChangePasswordModel(
             UserManager<IdentityUser> userManager,
             SignInManager<IdentityUser> signInManager,
-            ILogger<ChangePasswordModel> logger)
+            ILogger<ChangePasswordModel> logger) 
         {
-            _userManager = userManager;
+            _userManager = userManager; 
             _signInManager = signInManager;
             _logger = logger;
         }

@@ -20,7 +20,7 @@ namespace PraiseUsV2.Areas.Identity.Pages.Account
 
         public ResetPasswordModel(UserManager<IdentityUser> userManager)
         {
-            _userManager = userManager;
+            _userManager = userManager; 
         }
 
         /// <summary>

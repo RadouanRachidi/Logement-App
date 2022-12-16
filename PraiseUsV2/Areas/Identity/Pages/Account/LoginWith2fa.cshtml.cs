@@ -27,7 +27,7 @@ namespace PraiseUsV2.Areas.Identity.Pages.Account
         {
             _signInManager = signInManager;
             _userManager = userManager;
-            _logger = logger;
+            _logger = logger; 
         }
 
         /// <summary>

@@ -21,7 +21,7 @@ namespace PraiseUsV2.Areas.Identity.Pages.Account.Manage
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly IEmailSender _emailSender;
 
-        public EmailModel(
+        public EmailModel( 
             UserManager<IdentityUser> userManager,
             SignInManager<IdentityUser> signInManager,
             IEmailSender emailSender)

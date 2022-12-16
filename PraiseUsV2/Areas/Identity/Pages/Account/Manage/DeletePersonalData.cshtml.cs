@@ -22,8 +22,8 @@ namespace PraiseUsV2.Areas.Identity.Pages.Account.Manage
             UserManager<IdentityUser> userManager,
             SignInManager<IdentityUser> signInManager,
             ILogger<DeletePersonalDataModel> logger)
-        {
-            _userManager = userManager;
+        { 
+            _userManager = userManager; 
             _signInManager = signInManager;
             _logger = logger;
         }

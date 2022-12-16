@@ -19,7 +19,7 @@ namespace PraiseUsV2.Areas.Identity.Pages.Account
 
         public LogoutModel(SignInManager<IdentityUser> signInManager, ILogger<LogoutModel> logger)
         {
-            _signInManager = signInManager;
+            _signInManager = signInManager; 
             _logger = logger;
         }
 

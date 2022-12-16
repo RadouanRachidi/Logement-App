@@ -19,7 +19,7 @@ namespace PraiseUsV2.Areas.Identity.Pages.Account
         private readonly UserManager<IdentityUser> _userManager;
 
         public ConfirmEmailModel(UserManager<IdentityUser> userManager)
-        {
+        { 
             _userManager = userManager;
         }
 

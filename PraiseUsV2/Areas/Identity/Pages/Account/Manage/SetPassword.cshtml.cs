@@ -21,7 +21,7 @@ namespace PraiseUsV2.Areas.Identity.Pages.Account.Manage
             SignInManager<IdentityUser> signInManager)
         {
             _userManager = userManager;
-            _signInManager = signInManager;
+            _signInManager = signInManager; 
         }
 
         /// <summary>
