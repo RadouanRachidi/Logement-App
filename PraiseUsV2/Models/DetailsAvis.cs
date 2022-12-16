@@ -18,7 +18,7 @@ namespace PraiseUsV2.Models
             _context = context;
         }
 
-        public Avis Avis { get; set; }
+        public Avis Avis { get; set; } 
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {

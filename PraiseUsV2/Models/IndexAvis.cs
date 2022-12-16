@@ -22,7 +22,7 @@ namespace PraiseUsV2.Models
 
         public async Task OnGetAsync()
         {
-            if (_context.Locataire_Avis != null)
+            if (_context.Locataire_Avis != null) 
             {
                 Avis = await _context.Locataire_Avis.ToListAsync();
             }

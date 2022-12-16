@@ -16,7 +16,7 @@ namespace PraiseUsV2.Models
         public CreateModel(ApplicationDbContext context)
         {
             _context = context;
-        }
+        } 
 
         public IActionResult OnGet()
         {

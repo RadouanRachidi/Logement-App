@@ -17,7 +17,7 @@ namespace PraiseUsV2.Models
         {
             _context = context;
         }
-
+         
         [BindProperty]
         public Avis Avis { get; set; }
 

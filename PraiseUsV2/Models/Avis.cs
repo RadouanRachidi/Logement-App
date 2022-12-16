@@ -7,7 +7,7 @@ namespace PraiseUsV2.Models;
 public class Avis
 {
 
-    [Key]
+    [Key] 
     public int Id_Locataire { get; set; }
 
     public string Nom { get; set; }

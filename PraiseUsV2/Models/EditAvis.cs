@@ -20,7 +20,7 @@ namespace PraiseUsV2.Models
         }
 
         [BindProperty]
-        public Avis Avis { get; set; } = default!;
+        public Avis Avis { get; set; } = default!; 
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
