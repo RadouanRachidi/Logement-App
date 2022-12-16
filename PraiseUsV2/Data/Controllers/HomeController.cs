@@ -19,7 +19,7 @@ namespace PraiseUsV2.Data.Controllers
         }
 
         public IActionResult Avis()
-        {
+        { 
             return View();
         }
 

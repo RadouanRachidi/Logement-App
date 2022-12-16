@@ -18,7 +18,7 @@ namespace PraiseUsV2.Data.Controllers
             return View();
         }
 
-        [BindProperty]
+        [BindProperty] 
         public Avis Avis { get; set; }
 
 

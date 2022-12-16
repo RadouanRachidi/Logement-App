@@ -13,7 +13,7 @@ namespace PraiseUsV2.Controllers
         
         public IActionResult My_Avis()
         {
-            return View();
+            return View(); 
         }
 
         public IActionResult New_Avis()
