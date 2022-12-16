@@ -15,7 +15,7 @@
 .liste_manage_profil {
     text-decoration: none;
     display: flex;
-    flex-wrap: inherit;
+    flex-wrap: inherit; 
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;

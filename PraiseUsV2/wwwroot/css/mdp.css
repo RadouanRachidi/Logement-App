@@ -1,4 +1,4 @@
-﻿.mpd-setting {
+﻿ .mpd-setting {
     display: flex;
     justify-content: center;
 }
@@ -10,4 +10,4 @@
 .btn-update-password {
     background-color: #f34242;
     color: white;
-}
+}   
