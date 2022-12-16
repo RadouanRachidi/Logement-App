@@ -16,4 +16,4 @@ namespace PraiseUsV2.Data
         public DbSet<Avis> Locataire_Avis { get; set; }
 
     }
-}
+} 
